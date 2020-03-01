@@ -10,15 +10,17 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  
   nds = directors_database()
+  
   i = 0
-  output_string = ''
   
   while i < nds[0][:movies].count do
     
     puts nds[0][:movies][i][:title]
     
     i += 1
+    
   end
 
 end
