@@ -14,7 +14,14 @@ def print_first_directors_movie_titles(nds)
   nds = directors_database()
   let i = 0
   output_string = ''
-  nds[0][:movies][i][:title]
+  
+  while i < nds[0][:movies].length do
+    
+    nds[0][:movies][i][:title]
+    
+  
+  end
+  
   
 end
 
