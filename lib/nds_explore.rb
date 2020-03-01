@@ -17,7 +17,7 @@ def print_first_directors_movie_titles(nds)
   
   while i < nds[0][:movies].length do
     
-    output_string += "#{nds[0][:movies][i][:title]}\n"
+    puts nds[0][:movies][i][:title]
     
     i+=1
   end
