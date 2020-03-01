@@ -17,12 +17,12 @@ def print_first_directors_movie_titles(nds)
   
   while i < nds[0][:movies].length do
     
-    nds[0][:movies][i][:title]
+    output_string += "#{nds[0][:movies][i][:title]}\n"
     
-  
+    i+=1
   end
   
-  
+  return output_string
 end
 
 pretty_print_nds(directors_database())
