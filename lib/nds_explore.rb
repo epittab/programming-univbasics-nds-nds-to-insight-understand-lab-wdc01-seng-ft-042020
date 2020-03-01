@@ -20,7 +20,7 @@ def print_first_directors_movie_titles(nds)
     
     puts nds[0][:movies][i][:title]
     
-    i+=1
+    i += 1
   end
 
 end
