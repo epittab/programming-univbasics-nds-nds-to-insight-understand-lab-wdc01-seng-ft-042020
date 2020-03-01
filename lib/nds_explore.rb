@@ -12,6 +12,7 @@ end
 
 def print_first_directors_movie_titles(nds)
   nds = directors_database()
+  let i = 0
   
   nds[0][:movies][i][:title]
   
