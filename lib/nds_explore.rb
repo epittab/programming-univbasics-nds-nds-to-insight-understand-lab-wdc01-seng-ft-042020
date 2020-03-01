@@ -3,7 +3,6 @@ require 'directors_database'
 require 'pp'
 # Call the method directors_database to retrieve the NDS
 
-puts directors_database()
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
@@ -14,3 +13,5 @@ end
 def print_first_directors_movie_titles
   
 end
+
+pretty_print_nds(directors_database())
