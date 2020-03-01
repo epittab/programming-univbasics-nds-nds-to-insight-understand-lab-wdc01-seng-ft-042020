@@ -15,7 +15,7 @@ def print_first_directors_movie_titles(nds)
   let i = 0
   output_string = ''
   
-  while i < nds[0][:movies].length do
+  while i < nds[0][:movies].count do
     
     puts nds[0][:movies][i][:title]
     
