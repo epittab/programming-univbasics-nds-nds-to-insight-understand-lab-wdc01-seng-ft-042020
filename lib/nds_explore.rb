@@ -21,8 +21,7 @@ def print_first_directors_movie_titles(nds)
     
     i+=1
   end
-  
-  return output_string
+
 end
 
 pretty_print_nds(directors_database())
