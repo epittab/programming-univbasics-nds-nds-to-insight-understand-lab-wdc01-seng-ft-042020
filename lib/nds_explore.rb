@@ -7,8 +7,6 @@ require 'pp'
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   pp nds
-  puts nds[0][:movies][0][:title]
-  puts nds[0][:movies].count
 end
 
 def print_first_directors_movie_titles
